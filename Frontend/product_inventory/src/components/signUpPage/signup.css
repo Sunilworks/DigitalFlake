@@ -1,0 +1,106 @@
+/* .signin-container {
+
+    display: flex;
+    height: 100vh;
+  }
+  
+  .image-background {
+    flex: 1;
+    background-image: url('https://s3-alpha-sig.figma.com/img/4f8b/6e9d/609c7731d037f1b65d00906a7bc1e241?Expires=1698624000&Signature=D0w8Z0aPhnXqlHyebc7CzKw41uP4M-YGPDzGe53vCNp99f08x~VI4YZ0g6-SCYFSID1-i87d7xTHViFBJLEB7gs-q4fjDD8Ij35tlq4xGCHPIii0XA2sDFLTa1pSdKdrmbw13dmwREL7ofsg6imi51jWiEi17ClZpEc-324~2IIbFg36SsBSsaDaLq12k3a7dQ3E2pfJ5o86SXT7HB0A7AvLr3r50pzMmhIuA~78FkhlPTwdlRmA7cqqS2Sw4KlENpz-SdNCN8r9NFpJaPE0W1jOfcmFZWRLYTzn37Ayw6uNv3XW-ZGK3VdC3rk53n42Ajwl6Nkn2c9DTp7RycLyOA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4');
+    background-size: cover;
+  }
+  
+  .login-form {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+  }
+  
+.form-container {
+    width: 780px;
+height: 950px;
+flex-shrink: 0;
+border-radius: 15px;
+background: #FFF;
+box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.75);
+  }
+  
+  .login-form .form-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+  }
+  
+  .login-form .form-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+   */
+   .signin-container{
+    width: 100%;
+    height: 100vh;
+flex-shrink: 0;
+background: url('https://s3-alpha-sig.figma.com/img/4f8b/6e9d/609c7731d037f1b65d00906a7bc1e241?Expires=1698624000&Signature=D0w8Z0aPhnXqlHyebc7CzKw41uP4M-YGPDzGe53vCNp99f08x~VI4YZ0g6-SCYFSID1-i87d7xTHViFBJLEB7gs-q4fjDD8Ij35tlq4xGCHPIii0XA2sDFLTa1pSdKdrmbw13dmwREL7ofsg6imi51jWiEi17ClZpEc-324~2IIbFg36SsBSsaDaLq12k3a7dQ3E2pfJ5o86SXT7HB0A7AvLr3r50pzMmhIuA~78FkhlPTwdlRmA7cqqS2Sw4KlENpz-SdNCN8r9NFpJaPE0W1jOfcmFZWRLYTzn37Ayw6uNv3XW-ZGK3VdC3rk53n42Ajwl6Nkn2c9DTp7RycLyOA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'), lightgray 50% / cover no-repeat;
+   }
+   .login-form{
+    margin-top: 2%;
+    width: 500px;
+height: 600px;
+flex-shrink: 0;
+border-radius: 15px;
+background: #FFF;
+box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.75);
+margin-left: 5%;
+   }
+ 
+.logo{
+    width: 201px;
+height: 100px;
+flex-shrink: 0;
+padding-top: 57px; /* Only the top side has 5px of padding */
+  padding-right: 240px; /* Only the right side has 10px of padding */
+   /* Only the bottom side has 15px of padding */
+  padding-left: 150px;
+}
+.email{
+ margin-top: 8px;
+    width: 450px;
+height: 25px;
+flex-shrink: 0;
+border-radius: 5px;
+border: 1px solid #B1AFAF;
+background: #FFF;
+}
+.password{
+    width: 450px;
+    height: 25px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px solid #B1AFAF;
+    background: #FFF;
+    padding: 519 58 347 49;
+    margin-top: 8px;
+}
+.signup-container{
+    padding-left: 20px;
+  
+    
+}
+.signup-button{
+    color: white;
+    border: 0px;
+    width: 450px;
+height: 35px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #5C218B;
+box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.11);
+position: absolute;
+}

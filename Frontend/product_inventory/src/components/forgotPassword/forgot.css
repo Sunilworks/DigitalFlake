@@ -1,0 +1,58 @@
+.forgot-container{
+    width: 800px;
+height: 500px;
+flex-shrink: 0;
+border-radius: 10px;
+background-color: #fff;
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.3);
+text-align: center;
+margin-left: 22%;
+margin-top: 5%;
+}
+.h2{
+
+color: #662671;
+font-family:cursive;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.p{
+    color: #655A5A;
+text-align: center;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.forgot-email{
+   width: 450px;
+height: 100px;
+flex-shrink: 0;
+border-radius: 5px;
+border: 1px solid #B1AFAF;
+background: #FFF;
+}
+.reset-btn{
+    margin-top: 50px;
+    color: white;
+    border: 0px;
+    width: 450px;
+height: 35px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #5C218B;
+box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.11);
+}
+.back-to-login{
+    color: #979595;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration-line: underline;
+cursor: pointer;
+}
